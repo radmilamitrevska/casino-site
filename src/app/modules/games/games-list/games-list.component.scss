@@ -1,0 +1,16 @@
+.casino-games-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem;
+
+  &__game {
+    width: 47%;
+    padding: 0.3rem;
+
+    @media only screen and (min-width: 800px) {
+      width: 32%;
+      padding: 0.3rem;
+    }
+  }
+}

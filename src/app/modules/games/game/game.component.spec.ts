@@ -28,8 +28,8 @@ describe('GameComponent', () => {
   });
 
   it('game has value and image', () => {
-    const name = fixture.debugElement.query(By.css('.game-name'));
-    const image: GameImageComponent = fixture.debugElement.query(By.css('.game-image')).componentInstance;
+    const name = fixture.debugElement.query(By.css('.game-box__name'));
+    const image: GameImageComponent = fixture.debugElement.query(By.css('.game-box__img')).componentInstance;
     expect(name.nativeElement.textContent.trim()).toBe(gameJson.name.trim());
     expect(image.imageUrl).toBe(gameJson.background);
   });

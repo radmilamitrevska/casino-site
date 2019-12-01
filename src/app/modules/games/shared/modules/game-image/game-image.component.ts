@@ -10,10 +10,7 @@ export class GameImageComponent {
   readonly imageFallback: string = 'assets/images/default-img.jpeg';
   private _imageUrl;
   @Input() set imageUrl(value) {
-    if (!value) {
-      return;
-    }
-    this._imageUrl = value;
+    this._imageUrl = value ? value : this.imageFallback;
   }
 
   get imageUrl() {

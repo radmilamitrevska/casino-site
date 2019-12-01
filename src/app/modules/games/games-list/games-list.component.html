@@ -1,2 +1,5 @@
-<app-game *ngFor="let game of games" [game]="game"></app-game>
-
+<div class="casino-games-list">
+  <div class="casino-games-list__game" *ngFor="let game of games">
+    <app-game [game]="game"></app-game>
+  </div>
+</div>

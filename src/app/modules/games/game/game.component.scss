@@ -1,0 +1,25 @@
+.game-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+
+  &__name {
+    position: absolute;
+    padding: 1rem 0;
+    background: rgba(30, 130, 76, 0.3);
+    left: 0;
+    bottom: 31%;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &__img {
+    display: flex;
+  }
+}

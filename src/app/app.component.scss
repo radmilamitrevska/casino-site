@@ -1,0 +1,16 @@
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  &__header {
+    padding: 2rem 1rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #58a8a0;
+    color: #fff;
+  }
+}
