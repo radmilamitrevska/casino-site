@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { GameImageComponent } from './game-image.component';
+import {NO_ERRORS_SCHEMA} from '@angular/core';
 
 describe('GameImageComponent', () => {
   let component: GameImageComponent;
@@ -8,7 +9,8 @@ describe('GameImageComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GameImageComponent ]
+      declarations: [ GameImageComponent ],
+      schemas: [ NO_ERRORS_SCHEMA ]
     })
     .compileComponents();
   }));
