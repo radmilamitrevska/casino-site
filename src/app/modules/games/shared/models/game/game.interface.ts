@@ -1,0 +1,29 @@
+export interface GameInterface {
+  categories: Array<string>;
+  features: Array<string>;
+  themes: Array<string>;
+  icons: Array<string>;
+  backgrounds: Array<string>;
+  id: string;
+  server_game_id: string;
+  extearnal_game_id: string;
+  front_game_id: string;
+  name: string;
+  title: string;
+  ratio: string;
+  status: string;
+  provider: string;
+  show_as_provider: string;
+  provider_title: string;
+  game_options: string;
+  blocked_countries: string;
+  has_age_restriction: number;
+  icon_2: string;
+  background: string;
+  types: object;
+  game_skin_id: string;
+  cats: Array<object>;
+  feats: Array<string>;
+  thms: Array<string>;
+  active: string;
+}

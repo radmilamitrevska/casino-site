@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  dataJsonUrl: 'assets/data.json'
 };
